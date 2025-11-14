@@ -1,0 +1,278 @@
+{
+  "logistic_regression": {
+    "aggregate_metrics": {
+      "f1": 1.0,
+      "roc_auc": null,
+      "avg_precision": null,
+      "positive_rate": 1.0,
+      "predicted_positive_rate": 1.0
+    },
+    "fold_metrics": [
+      {
+        "f1": 1.0,
+        "roc_auc": null,
+        "avg_precision": null,
+        "positive_rate": 1.0,
+        "predicted_positive_rate": 1.0
+      },
+      {
+        "f1": 1.0,
+        "roc_auc": null,
+        "avg_precision": null,
+        "positive_rate": 1.0,
+        "predicted_positive_rate": 1.0
+      },
+      {
+        "f1": 1.0,
+        "roc_auc": null,
+        "avg_precision": null,
+        "positive_rate": 1.0,
+        "predicted_positive_rate": 1.0
+      },
+      {
+        "f1": 1.0,
+        "roc_auc": null,
+        "avg_precision": null,
+        "positive_rate": 1.0,
+        "predicted_positive_rate": 1.0
+      },
+      {
+        "f1": 1.0,
+        "roc_auc": null,
+        "avg_precision": null,
+        "positive_rate": 1.0,
+        "predicted_positive_rate": 1.0
+      }
+    ],
+    "feature_importances": {
+      "current_ratio": -0.36859553997721817,
+      "quick_ratio": -0.28215455921159105,
+      "cash_ratio": -0.2267935471283534,
+      "debt_to_equity": 0.4116338796724065,
+      "gross_margin": -0.31831063305294,
+      "operating_margin": -0.3325727756744111,
+      "net_margin": -0.38741630186804216,
+      "revenue_growth_yoy": -0.24349153567526471,
+      "ocf_margin": 0.05407093137913214,
+      "fcf_margin": 0.07533913209770904,
+      "liquidity_runway_quarters": 0.0024021969652932556,
+      "drawdown_12m": -0.17141531513140723,
+      "return_6m": -0.09749705670421102,
+      "asset_turnover": 0.015415570717349777,
+      "altman_z_score": -0.3308192848474536,
+      "excess_return_3m_spy": 0.048115220543285875,
+      "excess_return_6m_spy": -0.066182900106335,
+      "excess_return_12m_spy": -0.1304565541045904,
+      "excess_drawdown_12m_spy": -0.11915422667615272,
+      "vol_spread_rolling_vol_3m_spy": 0.06787755023213998,
+      "vol_spread_rolling_vol_6m_spy": 0.13256671258562466,
+      "relative_price_spy": -0.21925785158560657,
+      "excess_return_3m_xrt": 0.05689973100288953,
+      "excess_return_6m_xrt": -0.03325837183064091,
+      "excess_return_12m_xrt": -0.08154899915938887,
+      "excess_drawdown_12m_xrt": -0.03691997928928738,
+      "vol_spread_rolling_vol_3m_xrt": 0.12943104027937632,
+      "vol_spread_rolling_vol_6m_xrt": 0.17534015638727424,
+      "relative_price_xrt": -0.251992613823007,
+      "excess_return_3m_etsy": 0.11401727906083745,
+      "excess_return_6m_etsy": 0.04467231447187751,
+      "excess_return_12m_etsy": 0.08931280431168274,
+      "excess_drawdown_12m_etsy": 0.14028515955926424,
+      "vol_spread_rolling_vol_3m_etsy": -0.021374481881105183,
+      "vol_spread_rolling_vol_6m_etsy": -0.0013108453511793017,
+      "relative_price_etsy": -0.17289788238437692
+    },
+    "fold_reports": {
+      "fold_1": "              precision    recall  f1-score   support\n\n           1       1.00      1.00      1.00         4\n\n    accuracy                           1.00         4\n   macro avg       1.00      1.00      1.00         4\nweighted avg       1.00      1.00      1.00         4\n",
+      "fold_2": "              precision    recall  f1-score   support\n\n           1       1.00      1.00      1.00         4\n\n    accuracy                           1.00         4\n   macro avg       1.00      1.00      1.00         4\nweighted avg       1.00      1.00      1.00         4\n",
+      "fold_3": "              precision    recall  f1-score   support\n\n           1       1.00      1.00      1.00         4\n\n    accuracy                           1.00         4\n   macro avg       1.00      1.00      1.00         4\nweighted avg       1.00      1.00      1.00         4\n",
+      "fold_4": "              precision    recall  f1-score   support\n\n           1       1.00      1.00      1.00         4\n\n    accuracy                           1.00         4\n   macro avg       1.00      1.00      1.00         4\nweighted avg       1.00      1.00      1.00         4\n",
+      "fold_5": "              precision    recall  f1-score   support\n\n           1       1.00      1.00      1.00         4\n\n    accuracy                           1.00         4\n   macro avg       1.00      1.00      1.00         4\nweighted avg       1.00      1.00      1.00         4\n"
+    },
+    "classification_report": "Fold 1:\n              precision    recall  f1-score   support\n\n           1       1.00      1.00      1.00         4\n\n    accuracy                           1.00         4\n   macro avg       1.00      1.00      1.00         4\nweighted avg       1.00      1.00      1.00         4\n\n\nFold 2:\n              precision    recall  f1-score   support\n\n           1       1.00      1.00      1.00         4\n\n    accuracy                           1.00         4\n   macro avg       1.00      1.00      1.00         4\nweighted avg       1.00      1.00      1.00         4\n\n\nFold 3:\n              precision    recall  f1-score   support\n\n           1       1.00      1.00      1.00         4\n\n    accuracy                           1.00         4\n   macro avg       1.00      1.00      1.00         4\nweighted avg       1.00      1.00      1.00         4\n\n\nFold 4:\n              precision    recall  f1-score   support\n\n           1       1.00      1.00      1.00         4\n\n    accuracy                           1.00         4\n   macro avg       1.00      1.00      1.00         4\nweighted avg       1.00      1.00      1.00         4\n\n\nFold 5:\n              precision    recall  f1-score   support\n\n           1       1.00      1.00      1.00         4\n\n    accuracy                           1.00         4\n   macro avg       1.00      1.00      1.00         4\nweighted avg       1.00      1.00      1.00         4\n"
+  },
+  "random_forest": {
+    "aggregate_metrics": {
+      "f1": 0.7314285714285714,
+      "roc_auc": null,
+      "avg_precision": null,
+      "positive_rate": 1.0,
+      "predicted_positive_rate": 0.65
+    },
+    "fold_metrics": [
+      {
+        "f1": 0.4,
+        "roc_auc": null,
+        "avg_precision": null,
+        "positive_rate": 1.0,
+        "predicted_positive_rate": 0.25
+      },
+      {
+        "f1": 0.4,
+        "roc_auc": null,
+        "avg_precision": null,
+        "positive_rate": 1.0,
+        "predicted_positive_rate": 0.25
+      },
+      {
+        "f1": 0.8571428571428571,
+        "roc_auc": null,
+        "avg_precision": null,
+        "positive_rate": 1.0,
+        "predicted_positive_rate": 0.75
+      },
+      {
+        "f1": 1.0,
+        "roc_auc": null,
+        "avg_precision": null,
+        "positive_rate": 1.0,
+        "predicted_positive_rate": 1.0
+      },
+      {
+        "f1": 1.0,
+        "roc_auc": null,
+        "avg_precision": null,
+        "positive_rate": 1.0,
+        "predicted_positive_rate": 1.0
+      }
+    ],
+    "feature_importances": {
+      "current_ratio": 0.08450010215258749,
+      "quick_ratio": 0.06976358760077206,
+      "cash_ratio": 0.02996205532989802,
+      "debt_to_equity": 0.06363712396746043,
+      "gross_margin": 0.03975484207388354,
+      "operating_margin": 0.02784954626603638,
+      "net_margin": 0.029303901071531906,
+      "revenue_growth_yoy": 0.07214652090725733,
+      "ocf_margin": 0.015559209694228701,
+      "fcf_margin": 0.006457809960100487,
+      "liquidity_runway_quarters": 0.012670365664761504,
+      "drawdown_12m": 0.0315783050937751,
+      "return_6m": 0.027592350206783595,
+      "asset_turnover": 0.004706664696320379,
+      "altman_z_score": 0.0740227936941585,
+      "excess_return_3m_spy": 0.0037087339820001007,
+      "excess_return_6m_spy": 0.02518715028095796,
+      "excess_return_12m_spy": 0.040589655439181194,
+      "excess_drawdown_12m_spy": 0.023007458450304694,
+      "vol_spread_rolling_vol_3m_spy": 0.020007089718322636,
+      "vol_spread_rolling_vol_6m_spy": 0.010669882103326457,
+      "relative_price_spy": 0.0616790204244938,
+      "excess_return_3m_xrt": 0.00791234475453955,
+      "excess_return_6m_xrt": 0.012171820473523564,
+      "excess_return_12m_xrt": 0.021077661018691997,
+      "excess_drawdown_12m_xrt": 0.0031618145604904863,
+      "vol_spread_rolling_vol_3m_xrt": 0.010200230926180776,
+      "vol_spread_rolling_vol_6m_xrt": 0.012866965081587231,
+      "relative_price_xrt": 0.055869435184209934,
+      "excess_return_3m_etsy": 0.004852651687833069,
+      "excess_return_6m_etsy": 0.004095244088456415,
+      "excess_return_12m_etsy": 0.0035314291986482367,
+      "excess_drawdown_12m_etsy": 0.003800662008022357,
+      "vol_spread_rolling_vol_3m_etsy": 0.03191071534430913,
+      "vol_spread_rolling_vol_6m_etsy": 0.007885079980055368,
+      "relative_price_etsy": 0.04630977691530963
+    },
+    "fold_reports": {
+      "fold_1": "              precision    recall  f1-score   support\n\n           0       0.00      0.00      0.00         0\n           1       1.00      0.25      0.40         4\n\n    accuracy                           0.25         4\n   macro avg       0.50      0.12      0.20         4\nweighted avg       1.00      0.25      0.40         4\n",
+      "fold_2": "              precision    recall  f1-score   support\n\n           0       0.00      0.00      0.00         0\n           1       1.00      0.25      0.40         4\n\n    accuracy                           0.25         4\n   macro avg       0.50      0.12      0.20         4\nweighted avg       1.00      0.25      0.40         4\n",
+      "fold_3": "              precision    recall  f1-score   support\n\n           0       0.00      0.00      0.00         0\n           1       1.00      0.75      0.86         4\n\n    accuracy                           0.75         4\n   macro avg       0.50      0.38      0.43         4\nweighted avg       1.00      0.75      0.86         4\n",
+      "fold_4": "              precision    recall  f1-score   support\n\n           1       1.00      1.00      1.00         4\n\n    accuracy                           1.00         4\n   macro avg       1.00      1.00      1.00         4\nweighted avg       1.00      1.00      1.00         4\n",
+      "fold_5": "              precision    recall  f1-score   support\n\n           1       1.00      1.00      1.00         4\n\n    accuracy                           1.00         4\n   macro avg       1.00      1.00      1.00         4\nweighted avg       1.00      1.00      1.00         4\n"
+    },
+    "classification_report": "Fold 1:\n              precision    recall  f1-score   support\n\n           0       0.00      0.00      0.00         0\n           1       1.00      0.25      0.40         4\n\n    accuracy                           0.25         4\n   macro avg       0.50      0.12      0.20         4\nweighted avg       1.00      0.25      0.40         4\n\n\nFold 2:\n              precision    recall  f1-score   support\n\n           0       0.00      0.00      0.00         0\n           1       1.00      0.25      0.40         4\n\n    accuracy                           0.25         4\n   macro avg       0.50      0.12      0.20         4\nweighted avg       1.00      0.25      0.40         4\n\n\nFold 3:\n              precision    recall  f1-score   support\n\n           0       0.00      0.00      0.00         0\n           1       1.00      0.75      0.86         4\n\n    accuracy                           0.75         4\n   macro avg       0.50      0.38      0.43         4\nweighted avg       1.00      0.75      0.86         4\n\n\nFold 4:\n              precision    recall  f1-score   support\n\n           1       1.00      1.00      1.00         4\n\n    accuracy                           1.00         4\n   macro avg       1.00      1.00      1.00         4\nweighted avg       1.00      1.00      1.00         4\n\n\nFold 5:\n              precision    recall  f1-score   support\n\n           1       1.00      1.00      1.00         4\n\n    accuracy                           1.00         4\n   macro avg       1.00      1.00      1.00         4\nweighted avg       1.00      1.00      1.00         4\n"
+  },
+  "hist_gradient_boosting": {
+    "aggregate_metrics": {
+      "f1": 0.7276190476190476,
+      "roc_auc": null,
+      "avg_precision": null,
+      "positive_rate": 1.0,
+      "predicted_positive_rate": 0.6
+    },
+    "fold_metrics": [
+      {
+        "f1": 0.4,
+        "roc_auc": null,
+        "avg_precision": null,
+        "positive_rate": 1.0,
+        "predicted_positive_rate": 0.25
+      },
+      {
+        "f1": 0.8571428571428571,
+        "roc_auc": null,
+        "avg_precision": null,
+        "positive_rate": 1.0,
+        "predicted_positive_rate": 0.75
+      },
+      {
+        "f1": 0.8571428571428571,
+        "roc_auc": null,
+        "avg_precision": null,
+        "positive_rate": 1.0,
+        "predicted_positive_rate": 0.75
+      },
+      {
+        "f1": 0.8571428571428571,
+        "roc_auc": null,
+        "avg_precision": null,
+        "positive_rate": 1.0,
+        "predicted_positive_rate": 0.75
+      },
+      {
+        "f1": 0.6666666666666666,
+        "roc_auc": null,
+        "avg_precision": null,
+        "positive_rate": 1.0,
+        "predicted_positive_rate": 0.5
+      }
+    ],
+    "feature_importances": {
+      "current_ratio": 0.0,
+      "quick_ratio": 0.0,
+      "cash_ratio": 0.0,
+      "debt_to_equity": 0.0,
+      "gross_margin": -0.02844444444444444,
+      "operating_margin": 0.0,
+      "net_margin": 0.0,
+      "revenue_growth_yoy": 0.0,
+      "ocf_margin": 0.0,
+      "fcf_margin": 0.0,
+      "liquidity_runway_quarters": 0.0,
+      "drawdown_12m": 0.0,
+      "return_6m": 0.0,
+      "asset_turnover": 0.0,
+      "altman_z_score": 0.0,
+      "excess_return_3m_spy": 0.0,
+      "excess_return_6m_spy": 0.0,
+      "excess_return_12m_spy": 0.0,
+      "excess_drawdown_12m_spy": 0.0,
+      "vol_spread_rolling_vol_3m_spy": 0.0,
+      "vol_spread_rolling_vol_6m_spy": 0.0,
+      "relative_price_spy": 0.0,
+      "excess_return_3m_xrt": 0.0,
+      "excess_return_6m_xrt": 0.0,
+      "excess_return_12m_xrt": 0.0,
+      "excess_drawdown_12m_xrt": 0.0,
+      "vol_spread_rolling_vol_3m_xrt": 0.0,
+      "vol_spread_rolling_vol_6m_xrt": 0.0,
+      "relative_price_xrt": 0.0,
+      "excess_return_3m_etsy": 0.0,
+      "excess_return_6m_etsy": 0.0,
+      "excess_return_12m_etsy": -0.02133333333333333,
+      "excess_drawdown_12m_etsy": 0.0,
+      "vol_spread_rolling_vol_3m_etsy": 0.0,
+      "vol_spread_rolling_vol_6m_etsy": 0.0,
+      "relative_price_etsy": 0.0
+    },
+    "fold_reports": {
+      "fold_1": "              precision    recall  f1-score   support\n\n           0       0.00      0.00      0.00         0\n           1       1.00      0.25      0.40         4\n\n    accuracy                           0.25         4\n   macro avg       0.50      0.12      0.20         4\nweighted avg       1.00      0.25      0.40         4\n",
+      "fold_2": "              precision    recall  f1-score   support\n\n           0       0.00      0.00      0.00         0\n           1       1.00      0.75      0.86         4\n\n    accuracy                           0.75         4\n   macro avg       0.50      0.38      0.43         4\nweighted avg       1.00      0.75      0.86         4\n",
+      "fold_3": "              precision    recall  f1-score   support\n\n           0       0.00      0.00      0.00         0\n           1       1.00      0.75      0.86         4\n\n    accuracy                           0.75         4\n   macro avg       0.50      0.38      0.43         4\nweighted avg       1.00      0.75      0.86         4\n",
+      "fold_4": "              precision    recall  f1-score   support\n\n           0       0.00      0.00      0.00         0\n           1       1.00      0.75      0.86         4\n\n    accuracy                           0.75         4\n   macro avg       0.50      0.38      0.43         4\nweighted avg       1.00      0.75      0.86         4\n",
+      "fold_5": "              precision    recall  f1-score   support\n\n           0       0.00      0.00      0.00         0\n           1       1.00      0.50      0.67         4\n\n    accuracy                           0.50         4\n   macro avg       0.50      0.25      0.33         4\nweighted avg       1.00      0.50      0.67         4\n"
+    },
+    "classification_report": "Fold 1:\n              precision    recall  f1-score   support\n\n           0       0.00      0.00      0.00         0\n           1       1.00      0.25      0.40         4\n\n    accuracy                           0.25         4\n   macro avg       0.50      0.12      0.20         4\nweighted avg       1.00      0.25      0.40         4\n\n\nFold 2:\n              precision    recall  f1-score   support\n\n           0       0.00      0.00      0.00         0\n           1       1.00      0.75      0.86         4\n\n    accuracy                           0.75         4\n   macro avg       0.50      0.38      0.43         4\nweighted avg       1.00      0.75      0.86         4\n\n\nFold 3:\n              precision    recall  f1-score   support\n\n           0       0.00      0.00      0.00         0\n           1       1.00      0.75      0.86         4\n\n    accuracy                           0.75         4\n   macro avg       0.50      0.38      0.43         4\nweighted avg       1.00      0.75      0.86         4\n\n\nFold 4:\n              precision    recall  f1-score   support\n\n           0       0.00      0.00      0.00         0\n           1       1.00      0.75      0.86         4\n\n    accuracy                           0.75         4\n   macro avg       0.50      0.38      0.43         4\nweighted avg       1.00      0.75      0.86         4\n\n\nFold 5:\n              precision    recall  f1-score   support\n\n           0       0.00      0.00      0.00         0\n           1       1.00      0.50      0.67         4\n\n    accuracy                           0.50         4\n   macro avg       0.50      0.25      0.33         4\nweighted avg       1.00      0.50      0.67         4\n"
+  }
+}
